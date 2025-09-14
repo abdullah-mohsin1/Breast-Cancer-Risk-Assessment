@@ -1,0 +1,164 @@
+{
+  "features": [
+    {
+      "name": "radius_mean",
+      "label": "Radius Mean",
+      "type": "number",
+      "placeholder": "e.g., 13.37",
+      "min": 6.2829,
+      "max": 29.5155,
+      "step": 0.0796,
+      "required": true
+    },
+    {
+      "name": "texture_mean",
+      "label": "Texture Mean",
+      "type": "number",
+      "placeholder": "e.g., 18.84",
+      "min": 8.739,
+      "max": 41.244,
+      "step": 0.0986,
+      "required": true
+    },
+    {
+      "name": "perimeter_mean",
+      "label": "Perimeter Mean",
+      "type": "number",
+      "placeholder": "e.g., 86.24",
+      "min": 39.411,
+      "max": 197.925,
+      "step": 0.5595,
+      "required": true
+    },
+    {
+      "name": "area_mean",
+      "label": "Area Mean",
+      "type": "number",
+      "placeholder": "e.g., 551.10",
+      "min": 129.15,
+      "max": 2626.05,
+      "step": 7.8547,
+      "required": true
+    },
+    {
+      "name": "smoothness_mean",
+      "label": "Smoothness Mean",
+      "type": "number",
+      "placeholder": "e.g., 0.10",
+      "min": 0.047367000000000006,
+      "max": 0.17157,
+      "step": 0.0003,
+      "required": true
+    },
+    {
+      "name": "compactness_mean",
+      "label": "Compactness Mean",
+      "type": "number",
+      "placeholder": "e.g., 0.09",
+      "min": 0.017442000000000003,
+      "max": 0.36267,
+      "step": 0.0012,
+      "required": true
+    },
+    {
+      "name": "concavity_mean",
+      "label": "Concavity Mean",
+      "type": "number",
+      "placeholder": "e.g., 0.06",
+      "min": 0.0,
+      "max": 0.44814000000000004,
+      "step": 0.0018,
+      "required": true
+    },
+    {
+      "name": "concave points_mean",
+      "label": "Concave Points Mean",
+      "type": "number",
+      "placeholder": "e.g., 0.03",
+      "min": 0.0,
+      "max": 0.21126,
+      "step": 0.0008,
+      "required": true
+    },
+    {
+      "name": "symmetry_mean",
+      "label": "Symmetry Mean",
+      "type": "number",
+      "placeholder": "e.g., 0.18",
+      "min": 0.0954,
+      "max": 0.3192,
+      "step": 0.0007,
+      "required": true
+    },
+    {
+      "name": "fractal_dimension_mean",
+      "label": "Fractal Dimension Mean",
+      "type": "number",
+      "placeholder": "e.g., 0.06",
+      "min": 0.044964,
+      "max": 0.102312,
+      "step": 0.0002,
+      "required": true
+    },
+    {
+      "name": "radius_worst",
+      "label": "Radius Worst",
+      "type": "number",
+      "placeholder": "e.g., 14.97",
+      "min": 7.137,
+      "max": 37.842,
+      "step": 0.1078,
+      "required": true
+    },
+    {
+      "name": "perimeter_worst",
+      "label": "Perimeter Worst",
+      "type": "number",
+      "placeholder": "e.g., 97.66",
+      "min": 45.369,
+      "max": 263.76,
+      "step": 0.7502,
+      "required": true
+    },
+    {
+      "name": "area_worst",
+      "label": "Area Worst",
+      "type": "number",
+      "placeholder": "e.g., 686.50",
+      "min": 166.67999999999998,
+      "max": 4466.7,
+      "step": 13.3098,
+      "required": true
+    },
+    {
+      "name": "concavity_worst",
+      "label": "Concavity Worst",
+      "type": "number",
+      "placeholder": "e.g., 0.23",
+      "min": 0.0,
+      "max": 1.3146,
+      "step": 0.0045,
+      "required": true
+    },
+    {
+      "name": "radius_se",
+      "label": "Radius Se",
+      "type": "number",
+      "placeholder": "e.g., 0.32",
+      "min": 0.10035,
+      "max": 3.0166500000000003,
+      "step": 0.0059,
+      "required": true
+    },
+    {
+      "name": "concavity_se",
+      "label": "Concavity Se",
+      "type": "number",
+      "placeholder": "e.g., 0.03",
+      "min": 0.0,
+      "max": 0.41580000000000006,
+      "step": 0.0006,
+      "required": true
+    }
+  ]
+}

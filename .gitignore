@@ -1,0 +1,17 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Env / secrets
+.env
+*.env
+
+# Logs & cache
+*.log
+__pycache__/
+*.pyc
+node_modules/

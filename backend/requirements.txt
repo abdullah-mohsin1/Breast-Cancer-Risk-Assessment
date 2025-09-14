@@ -1,0 +1,10 @@
+Django>=5.0
+djangorestframework>=3.14
+django-cors-headers>=4.0
+scikit-learn>=1.3
+numpy>=1.24
+pandas>=2.0
+python-dotenv>=1.0
+typing-extensions>=4.5
+# shap>=0.42  # Uncomment when needed for advanced explanations
+
