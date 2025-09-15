@@ -157,11 +157,6 @@ The system runs in dummy mode by default, providing consistent mock predictions 
 4. Fill out the measurement form
 5. Submit to see mock prediction results
 
-### With Real Model
-1. Place your model files in `backend/inference/model/`
-2. Set `DUMMY_MODE=False` in `.env`
-3. Restart the backend server
-4. The system will use your trained model for predictions
 
 ## 📁 Project Structure
 
@@ -242,20 +237,7 @@ python manage.py createsuperuser # Create admin user
 python manage.py runserver      # Access admin at /admin/
 ```
 
-## 📝 TODO for Production
 
-- [ ] Add comprehensive test suite
-- [ ] Implement proper logging and monitoring
-- [ ] Add data validation and sanitization
-- [ ] Implement rate limiting
-- [ ] Add API documentation with OpenAPI/Swagger
-- [ ] Set up CI/CD pipeline
-- [ ] Add database backup procedures
-- [ ] Implement proper error tracking
-
-## 🤝 Contributing
-
-This is a research prototype. For contributions or questions, please contact the research team.
 
 ## 📄 License
 
